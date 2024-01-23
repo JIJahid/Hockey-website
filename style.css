@@ -57,6 +57,14 @@ form input{
     ;
 }
 
+form textarea{
+    padding: 10px;
+    outline: none;
+    background: #13131808
+    ;
+    border-radius: 16px;
+}
+
 @media screen and (max-width:576px) {
     .slide-img{
         min-height: 300px !important;
