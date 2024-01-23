@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Manrope{
+    font-family: 'Manrope', sans-serif;
+}
+.slide-img{
+    width: 100%;
+    min-height: 550px !important;
+    background: url(./img/1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.slide-text{
+    position: relative !important;
+    bottom: 0 !important;
+    right: 0;
+    max-width: 200px;
+    height: 100px;
+    background: red;
+}
+
+/*count*/
+.radial-progress1{
+    rotate: 140deg;
+}
+.count-numbar{
+    transform: rotate(220deg);
+}
+.radial-progress::before{
+        background-color: #f7f7fc !important;
+}
+
+
+
+/*Program section*/
+.row-1{
+    background: url(./img/2.png);
+}
+.row-2{
+    background: url(./img/3.png);
+}
+
+.row-3{
+    background: url(./img/4.png);
+}
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .slide-img{
+        min-height: 300px !important;
+        border: 2px solid red;
+    }
+}
+
+.line{
+    border: 1px solid red ;
+}
