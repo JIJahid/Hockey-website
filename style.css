@@ -51,6 +51,12 @@
 /*Our New Products*/
 
 
+/*form section*/
+form input{
+    background: #13131808
+    ;
+}
+
 @media screen and (max-width:576px) {
     .slide-img{
         min-height: 300px !important;
