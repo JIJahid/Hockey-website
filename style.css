@@ -26,8 +26,26 @@
 .radial-progress1{
     rotate: 140deg;
 }
+.radial-progress2{
+    rotate: 120deg;
+}
+.radial-progress3{
+    rotate: 110deg;
+}
+.radial-progress4{
+    rotate: 120deg;
+}
 .count-numbar{
     transform: rotate(220deg);
+}
+.count-numbar2{
+    transform: rotate(240deg);
+}
+.count-numbar3{
+    transform: rotate(250deg);
+}
+.count-numbar4{
+    transform: rotate(240deg);
 }
 .radial-progress::before{
         background-color: #f7f7fc !important;
