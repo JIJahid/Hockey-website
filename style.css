@@ -6,6 +6,20 @@
     font-family: 'Manrope', sans-serif;
 }
 
+/*navbar*/
+.btn-ghost:hover{
+        background: none;
+}
+.menu a{
+    font-size: 18px;
+    font-weight: 600;
+}
+.menu li a:hover{
+    background: none;
+}
+
+
+
 .slide-content{
     width: 45%;
     height: auto;
@@ -91,12 +105,38 @@ form input{
 form textarea{
     padding: 10px;
     outline: none;
-    background: #13131808
-    ;
+    background: #13131808;
     border-radius: 16px;
 }
 
 @media screen and (max-width:576px) {
- 
+    form textarea{
+       height: 220px;
+       outline: none !important;
+    }
 }
 
+
+
+.container>div{
+    width: 230px;
+    height: auto;
+    margin: 30px;
+    border: 1px solid red;
+}
+.container ul li a{
+    line-height: 2rem;
+}
+
+@media screen and (max-width:640px) {
+    .container> div{
+         text-align: center;
+         margin: 10px;
+    }
+   .container .f-1{
+    width: 200px;
+   }
+   .container .f-2{
+    width: 200px;
+   }
+}
