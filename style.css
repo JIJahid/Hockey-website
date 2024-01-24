@@ -7,7 +7,111 @@
     font-family: 'Manrope', sans-serif;
 }
 
-/*navbar*/
+
+
+
+.slide-image{
+    width: 100%;
+    height: 550px;
+    background: url(./img/1.png);
+    background-position: center;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    border-radius: 16px;
+}
+.slideimg-2{
+    background: url(./img/h-b.jpg);
+    
+    background-position: center;
+    background-size: cover;
+}
+.slideimg-3{
+    background: url(./img/hockey-man.webp);
+    background-position: center;
+    background-size: cover;
+}
+.slide-text{
+    width: 45%;
+    position: absolute;
+    bottom: 32px;
+    right: 32px;
+    background: black;
+    color: white;
+    padding: 20px;
+    border-radius: 16px;
+}
+
+
+
+@media screen  and (max-width:640px){
+    #slide1{
+        height: 510px;
+    }
+    .slide-image{
+        width: 100%;
+        height: 300px;
+    }
+    .slide-text{
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background: black;
+        color: white;
+        padding: 20px;
+        border-radius: 16px;
+    }
+
+    .slide-btn{
+        justify-content: center;
+        left: 0px !important;
+        top: 320px;
+        width: 100%;
+    }
+}
+@media screen  and (max-width:576px){
+    #slide1{
+        height: 490px;
+    }
+
+}
+@media screen  and (max-width:481px){
+    #slide1{
+        height:500px;
+    }
+}
+@media screen  and (max-width:395px){
+    #slide1{
+        height:520px;
+    }
+    .slide-btn{
+        justify-content: center;
+        left: 0px !important;
+        top: 325px;
+        width: 100%;
+    }
+}
+@media screen  and (max-width:376px){
+    #slide1{
+        height:540px;
+    }
+    .slide-btn{
+        justify-content: center;
+        left: 0px !important;
+        top: 340px;
+        width: 100%;
+    }
+}
+@media screen  and (max-width:325px){
+    #slide1{
+        height:560px;
+    }
+}
+
+
+
+
+/* navbar
 .btn-ghost:hover{
         background: none;
 }
@@ -53,7 +157,7 @@
         height: 250px !important;
      }
 
-}
+} */
 /*count*/
 .radial-progress1{
     rotate: 140deg;
