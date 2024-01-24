@@ -5,23 +5,42 @@
 .Manrope{
     font-family: 'Manrope', sans-serif;
 }
-.slide-img{
-    width: 100%;
-    min-height: 550px !important;
-    background: url(./img/1.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+
+.slide-content{
+    width: 45%;
+    height: auto;
+    bottom: 30px;
+    right:30px;
+    background: black;
+    z-index: 11111111111;
+    position: absolute;
+    border-radius: 16px;
 }
-.slide-text{
-    position: relative !important;
-    bottom: 0 !important;
-    right: 0;
-    max-width: 200px;
-    height: 100px;
-    background: red;
+.slide-content1{
+    width: 100%;
+    height: auto;
+    top: 400px;
+    left: 0;
+    right:0;
 }
 
+.slide-img{
+    height: 550px;
+}
+@media screen and (max-width:576px) {
+    .slide-content{
+        width: 100%;
+        height: auto;
+        top: 0;
+        left: 0;
+        right:0;
+        z-index: 88888;
+    }
+    .slide-img{
+        height: 250px !important;
+     }
+
+}
 /*count*/
 .radial-progress1{
     rotate: 140deg;
@@ -52,7 +71,6 @@
 }
 
 
-
 /*Program section*/
 .row-1{
     background: url(./img/2.png);
@@ -60,14 +78,9 @@
 .row-2{
     background: url(./img/3.png);
 }
-
 .row-3{
     background: url(./img/4.png);
 }
-
-
-/*Our New Products*/
-
 
 /*form section*/
 form input{
@@ -84,12 +97,6 @@ form textarea{
 }
 
 @media screen and (max-width:576px) {
-    .slide-img{
-        min-height: 300px !important;
-        border: 2px solid red;
-    }
+ 
 }
 
-.line{
-    border: 1px solid red ;
-}
