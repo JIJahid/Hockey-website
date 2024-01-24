@@ -117,26 +117,3 @@ form textarea{
 }
 
 
-
-.container>div{
-    width: 230px;
-    height: auto;
-    margin: 30px;
-    border: 1px solid red;
-}
-.container ul li a{
-    line-height: 2rem;
-}
-
-@media screen and (max-width:640px) {
-    .container> div{
-         text-align: center;
-         margin: 10px;
-    }
-   .container .f-1{
-    width: 200px;
-   }
-   .container .f-2{
-    width: 200px;
-   }
-}
