@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 .Manrope{
     font-family: 'Manrope', sans-serif;
 }
@@ -17,8 +18,6 @@
 .menu li a:hover{
     background: none;
 }
-
-
 
 .slide-content{
     width: 45%;
